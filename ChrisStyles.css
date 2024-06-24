@@ -1,0 +1,114 @@
+
+
+.ContactBar
+{
+	display: flex; flex-flow: row nowrap;
+	position: fixed;
+	width: 100%; height:10%;
+	align-items: center;
+	justify-content: space-around;
+	top:0;
+	background-color: #000000;
+	color: #454545;
+	z-index: 99;
+}
+
+.flexContainer
+{
+	display: flex; flex-flow: column nowrap;
+	width: 100%; height:1700px;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #222222;
+}
+
+.topContainer
+{
+	display:flex; flex-flow: column nowrap;
+	width:90%; height:100%;
+	justify-content: center;
+	align-items: center;
+	background-image: url("KoreaGlassFloor.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+.lowerContainer
+{
+	display: flex; flex-flow: column wrap;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	width:90%; height:100%;
+	color: #FFFFFF;
+}
+.sliderContainer
+{
+	display: flex; flex-flow: row wrap;
+	position: relative;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	width: 80%; height: 90%;
+}
+.slider
+{
+	display: flex;
+	overflow-x: auto;
+	scrollbar-width: none;
+	aspect-ratio: 16/9;
+	scroll-snap-type: x mandatory;
+	scroll-behvior: smooth;
+	border-radius: 30rem;
+	border: 3px solid #222222;
+}
+.slider img
+{
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+.sliderNav
+{
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	padding-bottom: 10rem;
+	z-index: 90;
+}
+.sliderNav a
+{
+	width: 0.5rem;
+	height: 0.5rem;
+	
+	border-radius: 50%;
+	background-color: #A5A5A5;
+	opacity: 0.75rem;
+	transition: opacity ease 400ms;
+}
+.sliderNav a:hover
+{
+	opacity: 1;
+}
+
+.buttons
+{
+	display: flex; flex-flow: row no wrap;
+	position: absalute;
+	width: 50%; height: 10%;
+	justify-content: space-between;
+	align-items: flex-start;
+	border: 5px solid white;
+}
+.buttons button
+{
+	position: absalute;
+	width: 20%; height: 60%;
+	}
