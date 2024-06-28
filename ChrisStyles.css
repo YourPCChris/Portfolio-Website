@@ -75,11 +75,11 @@
 .sliderNav
 {
 	display: flex;
-  width: 10%; height: 5%;
+    width: 10%; height: 5%;
 	column-gap: 1rem;
 	position: absolute;
 	bottom: 1.25rem;
-  left: 45%;
+    left: 45%;
 	z-index: 90;
 }
 .sliderNav a
@@ -88,16 +88,16 @@
 	height: 0.5rem;
 	
 	border-radius: 50%;
-	background-color: #A5A5A5;
+	background-color: #FF8800;
 	opacity: 0.75rem;
 	transition: opacity ease 400ms;
 }
 .sliderNav a:hover
 {
 	opacity: 1;
-  background-color: #FFFFFF;
-  width: 1rem;
-  height: 1rem;
+    background-color: #FFFFFF;
+    width: 1rem;
+    height: 1rem;
 }
 
 .buttons
